@@ -4,14 +4,10 @@
 # If you run "mix test --cover", coverage assets end up here.
 /cover/
 
-/config/dev.exs
-/config/prod.secret.exs
-/config/test.exs
-
 # The directory Mix downloads your dependencies sources to.
 /deps/
 
-# Where third-party dependencies like ExDoc output generated docs.
+# Where 3rd-party dependencies like ExDoc output generated docs.
 /doc/
 
 # Ignore .fetch files in case you like to edit your project deps locally.
@@ -23,6 +19,5 @@ erl_crash.dump
 # Also ignore archive artifacts (built via "mix archive.build").
 *.ez
 
-
-# Temporary files for e.g. tests
-/tmp
+# Ignore package tarball (built via "mix hex.build").
+elixir_drip-*.tar
